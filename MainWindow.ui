@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>515</width>
+    <height>177</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>515</width>
+    <height>177</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>515</width>
+    <height>177</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Rock-paper-scissors 1.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.ico</normaloff>icon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblChoice">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>44</y>
+      <width>139</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pick your choice :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonRock">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>76</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rock</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPaper">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>76</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Paper</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonScissors">
+    <property name="geometry">
+     <rect>
+      <x>218</x>
+      <y>76</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Scissors</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblIcon">
+    <property name="geometry">
+     <rect>
+      <x>346</x>
+      <y>20</y>
+      <width>128</width>
+      <height>128</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>icon_question.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblYourScoreText">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>12</y>
+      <width>93</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Your score:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblYourScore">
+    <property name="geometry">
+     <rect>
+      <x>118</x>
+      <y>12</y>
+      <width>35</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCPUScoreText">
+    <property name="geometry">
+     <rect>
+      <x>164</x>
+      <y>12</y>
+      <width>85</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CPU score:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCPUScore">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>12</y>
+      <width>68</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblWonText">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>142</y>
+      <width>183</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCPUChoice">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>114</y>
+      <width>133</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

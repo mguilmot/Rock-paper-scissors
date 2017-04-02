@@ -1,0 +1,10 @@
+scriptpath='rock-paper-scissors.pyw'
+scriptname="Rock Paper Scissors"
+scriptdesc="Rock Paper Scissors game"
+scriptver="1.0"
+scripticon="icon.ico"
+scriptauthor="Mike Guilmot"
+scriptcopyright="FreeWare"
+#scriptextraincludes=(".",["file.txt","file2.txt"])
+scriptextraincludes=(".",["icon_lost.png","icon_won.png","icon_question.png"])
+scriptpackages=[]
